@@ -6,6 +6,7 @@ module Fluent
 
     def initialize
       super
+      require 'ostruct'
     end
 
     config_param :output_tag, :string
